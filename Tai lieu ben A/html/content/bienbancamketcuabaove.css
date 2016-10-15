@@ -1,0 +1,131 @@
+body {
+	padding: 0.5em 5em 0em 5em;
+}
+
+	header {
+		display: inline-flex;
+		color: rgba(0, 0, 0, 0.6);
+	}
+
+		header > img {
+			width: 15%;
+			height: 5%;
+			opacity: 0.6;
+		}
+
+		header > div {
+			text-align: center;
+			width: 85%;
+			padding: 2em 0em 0em 0em;
+		}
+
+			header > div > .tenCongty-vn {
+			  display: block;
+				font-size: 1.1em;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin: 0;
+      }
+
+			header > div > .tenCongty-en {
+			  display: block;
+				font-size: 0.9em;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin: 0;
+      }
+
+			header > div > .diaChi {
+			  display: block;
+				font-size: 0.85em;
+				margin: 0;
+				
+      }
+
+			header > div > .thongTin {
+			  display: block;
+				margin: 0;
+}
+
+				header > div > .thongTin > .colum {
+					display: inline-flex;
+					width: 35%;
+					text-align: left;
+					font-size: 0.8em;
+}
+
+	section {
+		padding: 1em 0em;
+}
+
+		section > article {
+			text-align: justify;
+}
+
+			section > article > .tieuDe {
+				text-align: center;
+				font-size: 1.2em;
+				font-weight: bold;
+				text-transform: uppercase;
+}
+
+				section > article > .tieuDe > span {
+					font-size: 0.9em;
+}
+
+			section > article > .thongTin {
+				font-size: 1em;
+}
+
+			section > article > .camKet {
+				font-size: 1em;
+}
+
+				section > article > .camKet > p {
+					font-weight: bold;
+					font-style: italic;
+}
+
+					section > article > .camKet > .noiDung{}
+
+						section > article > .camKet > .noiDung > p{
+					margin-bottom: 0;
+}
+
+	footer {
+}
+
+		footer > .ngay {
+			text-align: right;
+			font-size: 0.9em;
+			font-style: italic;
+			margin: 0em 0em 0.5em 0em;
+			
+}
+
+		footer > .kyTen {
+		padding: 0em 0em 7em 0em;
+}
+
+			footer > .kyTen > p {
+				width: 48%;
+				display: inline-block;
+			  text-align: center;
+				font-weight: bold;
+				margin: 0;
+}
+
+				footer > .kyTen > p > .ten{
+					font-size: 1.2em;
+}
+
+				footer > .kyTen > p > .phu{
+					font-size: 1em;
+					font-style: italic;
+}
+
+footer > .soLuong {
+	margin: 0;
+	font-size: 0.7em;
+	color: rgba(0, 0, 0, 0.6)
+}
