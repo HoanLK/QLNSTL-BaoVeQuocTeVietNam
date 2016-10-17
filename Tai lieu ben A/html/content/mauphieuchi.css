@@ -1,0 +1,147 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+section {}
+
+article {
+	padding: 0;
+	margin: 0;
+}
+
+.thongtinmau{}
+
+.thongtinmau > .dong-1{
+	width: 100%;
+	height: 3em;
+}
+
+.thongtinmau > .dong-1 > p{
+	margin: 0;
+	float: left;
+	padding: 0;
+}
+
+.thongtinmau > .dong-1 > .diachi{
+	width: 25%;
+	font-weight: bold;
+	padding-top: 0.8em;
+}
+
+.thongtinmau > .dong-1 > .tieude{
+	width: 25%;
+	font-weight: bold;
+	font-size: 2.5em;
+	padding-top: 0.2em;
+}
+
+.thongtinmau > .dong-1 > .so{
+	width: 10%;
+	padding-top: 1.9em;
+	text-align: center;
+}
+
+.thongtinmau > .dong-1 > .mauso{
+	width: 40%;
+	text-align: center;
+	padding-top: 0.7em;
+	float: right;
+}
+
+.thongtinmau > .dong-1 > .mauso > span{
+	font-size: 0.9em;
+}
+
+.thongtinmau > .dong-2{
+	width: 100%;
+	height: 3em;
+	margin: 2em 0em;
+	padding: 0;
+}
+
+.thongtinmau > .dong-2 > p{
+	margin: 0;
+	float: left;
+	line-height: 1.3em;
+}
+
+.thongtinmau > .dong-2 > .ngay{
+	text-align: center;
+	padding-left: 11em;
+}
+
+.thongtinmau > .dong-2 > .no{
+	text-transform: uppercase;
+	padding-left: 10em;
+}
+
+.noidung{
+	font-weight: bold;
+}
+
+.noidung > p{
+	width: 100%;
+	height: 2em;
+	margin: 0;
+}
+
+.noidung > .tennguoinhan{}
+
+.noidung > .diachi{}
+
+.noidung > .lydochi{
+	height: 4em;
+}
+
+.noidung > .sotien{
+	width: 100%;
+	height: 2em;
+}
+
+.noidung > .sotien > .bangso{
+	float: left;
+	margin: 0;
+	width: 15em;
+}
+
+.noidung > .sotien > .bangchu{
+	float: left;
+	margin: 0;
+}
+
+.noidung > .kemtheo{}
+
+.noidung > .kemtheo > span{
+	font-weight: normal;
+}
+
+.kyten{}
+
+.kyten > .ngay{
+	width: 100%;
+	text-align: right;
+}
+
+.kyten > .chucvu{
+	list-style: none;
+	width: 100%;
+	height: 5em;
+}
+
+.kyten > .chucvu > li{
+	float: left;
+	width: 20%;
+	text-align: center;	
+	font-weight: bold;
+}
+
+.kyten > .chucvu > li > span{
+	font-weight: normal;
+	font-style: italic;
+}
+
+.kyten > .chucvu > li > p{
+	margin: 5em 0em 0em 0em;
+	font-weight: normal;
+}

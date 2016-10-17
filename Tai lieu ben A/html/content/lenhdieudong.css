@@ -1,0 +1,234 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+  section{
+  	padding: 0em 5em;
+  }
+
+p{
+	margin: 0;
+}
+
+    article{}
+
+      .header{
+      	width: 100%;
+      	height: 1%;
+      	overflow: hidden;
+      }
+
+        .header > img{
+        	float: left;
+        	width: 15%;
+        	height: 5%;
+        	opacity: 0.6;
+        }
+
+        .header > div{
+        	color: rgba(31, 78, 121, 0.6);
+			padding: 1em 0em 0em 0em;
+			text-align: center;
+        }
+
+        .header > div > p{
+          	display: block;
+        }
+
+          .header > div > .tenCongty-vn{
+			font-size: 1.1em;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin: 0;
+          }
+
+          .header > div > .tenCongty-en{
+			font-size: 0.9em;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin: 0;
+          }
+
+          .header > div > .diaChi{
+			font-size: 0.85em;
+			margin: 0;
+          }
+
+          .header > div > .thongTin{
+			margin: 0;
+          }
+
+            .header > div > .thongTin > span{
+            	display: inline-flex;
+				width: 30%;
+				text-align: left;
+				font-size: 0.8em;
+				padding-left: 2.5em;
+            }
+
+      .phanThan{
+      	margin: 3em 0em 0em 0em;
+      	height: 1%;
+      	overflow: hidden;
+      }
+
+        .phanThan > .soMau{
+        	width: 100%;
+        	height: 1%;
+        	overflow: hidden;
+        }
+
+          .phanThan > .soMau > .so{
+          	width: 50%;
+          	float: left;
+          }
+
+           .phanThan > .soMau > .so > span{
+           	font-weight: bold;
+           }
+
+          .phanThan > .soMau > .ngay{
+          	width: 50%;
+          	float: right;
+          	text-align: right;
+          	font-style: italic;
+          }
+
+        .phanThan > .noiDung{
+        	padding: 1.5em 0em 0em;
+        }
+
+          .phanThan > .noiDung > .tieuDe{
+          	font-weight: bold;
+          	font-size: 1.1em;
+          	text-align: center;
+          	text-transform: uppercase;
+          	line-height: 2em;
+          }
+
+           .phanThan > .noiDung > .tieuDe > span{
+           	font-size: 1.6em;
+           }
+
+          .phanThan > .noiDung > .luat{
+          	list-style: none;
+          	line-height: 1.8em;
+          	font-style: italic;
+          }
+
+           .phanThan > .noiDung > .luat > li{}
+
+           .phanThan > .noiDung > .luat > li:before{
+  				content: "-";
+  				padding-right: 1em;
+           }
+
+          .phanThan > .noiDung > .chiTiet{
+          	line-height: 1.8em;
+          	text-align: justify;
+          }
+
+            .phanThan > .noiDung > .chiTiet > .quyetDinh{
+            	text-align: center;
+            	font-size: 1.8em;
+            	font-weight: bold;
+            	text-transform: uppercase;
+            	padding-bottom: 0.5em;
+            }
+
+              .phanThan > .noiDung > .chiTiet > .dieu-1{
+              	font-size: 1.2em;
+              	height: 1%;
+              	overflow: hidden;
+              }
+
+                .phanThan > .noiDung > .chiTiet > .dieu-1 > .dong-1{}
+
+                 .phanThan > .noiDung > .chiTiet > .dieu-1 > .dong-1 > span{
+                 	font-weight: bold;
+                 	font-style: italic;
+                 	text-decoration: underline;
+                 }
+
+                .phanThan > .noiDung > .chiTiet > .dieu-1 > .dong-2{
+                	text-indent: 3em;
+                }
+
+                 .phanThan > .noiDung > .chiTiet > .dieu-1 > .dong-2 > span{
+                 	padding-left: 17.8em;
+                 }
+
+                .phanThan > .noiDung > .chiTiet > .dieu-1 > .dong-3{
+                	text-indent: 3em;
+                }
+
+                .phanThan > .noiDung > .chiTiet > .dieu-1 > .dong-4{
+                	text-indent: 3em;
+                }
+
+                 .phanThan > .noiDung > .chiTiet > .dieu-1 > .dong-4 > span{
+                 	padding-left: 23.3em;
+                 }
+
+                .phanThan > .noiDung > .chiTiet > .dieu-1 > .dong-5{
+                	text-indent: 3em;
+                }
+
+                .phanThan > .noiDung > .chiTiet > .dieu-1 > .anh{
+                	width: 113.4px;
+                	height: 151.2px;
+                	border: solid 1px;
+                	position: absolute;
+                	z-index: 2;
+                	margin: -13.8em 0em 0em 25em;
+                }
+
+            .phanThan > .noiDung > .chiTiet > .cacDieu{
+            	font-size: 1.2em;
+            	padding-top: 0.5em;
+            }
+
+             .phanThan > .noiDung > .chiTiet > .cacDieu > span{
+             	font-weight: bold;
+             	font-style: italic;
+             	text-decoration: underline;
+             }
+
+      .kyTen{
+      	margin: 2em 0em 0em 0em;
+      }
+
+        .kyTen > ul{
+        	list-style: none;
+        	float: left;
+        	width: 25%;
+        	margin: 0;
+        }
+
+        	.kyTen > ul > .noiNhan{
+        		font-weight: bold;
+        		text-decoration: underline;
+        		padding-bottom: 0.5em;
+        	}
+
+        	.kyTen > ul > .noiNhan:before{
+        		content: none;
+        	}
+
+     		.kyTen > ul > li{
+        		font-style: italic;
+        		font-size: 0.9em;
+        	}
+
+         		.kyTen > ul > li:before{
+  				content: "-";
+  				padding-right: 1em;
+         	}
+
+        .kyTen > p{
+        	text-align: center;
+        	font-weight: bold;
+        	text-transform: uppercase;
+        	line-height: 1.8em;
+        }
