@@ -1,153 +1,161 @@
-body{
-	padding: 0;
-	margin: 0;
+body {
+    padding: 0;
+    margin: 0;
 }
 
-section {
-	margin: 1em 2em 0em 2em;
-	height: 1%;
-	overflow: hidden;
+.mauphieuchi {
 }
 
-article {
-	padding: 0;
-	margin: 0;
-}
+    .mauphieuchi > section {
+        margin: 1em 0 0 0;
+        height: 1%;
+        overflow: hidden;
+    }
 
-.thongtinmau{}
+        .mauphieuchi > section > article {
+            padding: 0;
+            margin: 0;
+        }
 
-.thongtinmau > .dong-1{
-	width: 100%;
-	height: 3em;
-}
+        .mauphieuchi > section > .thongtinmau {
+        }
 
-.thongtinmau > .dong-1 > p{
-	margin: 0;
-	float: left;
-	padding: 0;
-}
+            .mauphieuchi > section > .thongtinmau > .dong-1 {
+                width: 100%;
+                height: 3em;
+            }
 
-.thongtinmau > .dong-1 > .diachi{
-	width: 25%;
-	font-weight: bold;
-	padding-top: 0.8em;
-}
+                .mauphieuchi > section > .thongtinmau > .dong-1 > p {
+                    margin: 0;
+                    float: left;
+                    padding: 0;
+                }
 
-.thongtinmau > .dong-1 > .tieude{
-	width: 25%;
-	font-weight: bold;
-	font-size: 2.5em;
-	padding-top: 0.2em;
-}
+                .mauphieuchi > section > .thongtinmau > .dong-1 > .diachi {
+                    width: 25%;
+                    font-weight: bold;
+                    padding-top: 0.8em;
+                }
 
-.thongtinmau > .dong-1 > .so{
-	width: 10%;
-	padding-top: 1.9em;
-	text-align: center;
-}
+                .mauphieuchi > section > .thongtinmau > .dong-1 > .tieude {
+                    width: 25%;
+                    font-weight: bold;
+                    font-size: 2.5em;
+                    padding-top: 0.2em;
+                }
 
-.thongtinmau > .dong-1 > .mauso{
-	width: 40%;
-	text-align: center;
-	padding-top: 0.7em;
-	float: right;
-}
+                .mauphieuchi > section > .thongtinmau > .dong-1 > .so {
+                    width: 10%;
+                    padding-top: 1.9em;
+                    text-align: center;
+                }
 
-.thongtinmau > .dong-1 > .mauso > span{
-	font-size: 0.9em;
-}
+                .mauphieuchi > section > .thongtinmau > .dong-1 > .mauso {
+                    width: 40%;
+                    text-align: center;
+                    padding-top: 0.7em;
+                    float: right;
+                }
 
-.thongtinmau > .dong-2{
-	width: 100%;
-	height: 3em;
-	margin: 2em 0em;
-	padding: 0;
-}
+                    .mauphieuchi > section > .thongtinmau > .dong-1 > .mauso > span {
+                        font-size: 0.9em;
+                    }
 
-.thongtinmau > .dong-2 > p{
-	margin: 0;
-	float: left;
-	line-height: 1.3em;
-}
+            .mauphieuchi > section > .thongtinmau > .dong-2 {
+                width: 100%;
+                height: 3em;
+                margin: 2em 0em;
+                padding: 0;
+            }
 
-.thongtinmau > .dong-2 > .ngay{
-	text-align: center;
-	padding-left: 11em;
-}
+                .mauphieuchi > section > .thongtinmau > .dong-2 > p {
+                    margin: 0;
+                    float: left;
+                    line-height: 1.3em;
+                }
 
-.thongtinmau > .dong-2 > .no{
-	text-transform: uppercase;
-	padding-left: 10em;
-}
+                .mauphieuchi > section > .thongtinmau > .dong-2 > .ngay {
+                    text-align: center;
+                    padding-left: 11em;
+                }
 
-.noidung{
-	font-weight: bold;
-}
+                .mauphieuchi > section > .thongtinmau > .dong-2 > .no {
+                    text-transform: uppercase;
+                    padding-left: 10em;
+                }
 
-.noidung > p{
-	width: 100%;
-	height: 2em;
-	margin: 0;
-}
+        .mauphieuchi > section > .noidung {
+            font-weight: bold;
+        }
 
-.noidung > .tennguoinhan{}
+            .mauphieuchi > section > .noidung > p {
+                width: 100%;
+                height: 2em;
+                margin: 0;
+            }
 
-.noidung > .diachi{}
+            .mauphieuchi > section > .noidung > .tennguoinhan {
+            }
 
-.noidung > .lydochi{
-	height: 4em;
-}
+            .mauphieuchi > section > .noidung > .diachi {
+            }
 
-.noidung > .sotien{
-	width: 100%;
-	height: 2em;
-}
+            .mauphieuchi > section > .noidung > .lydochi {
+                height: 4em;
+            }
 
-.noidung > .sotien > .bangso{
-	float: left;
-	margin: 0;
-	width: 15em;
-}
+            .mauphieuchi > section > .noidung > .sotien {
+                width: 100%;
+                height: 2em;
+            }
 
-.noidung > .sotien > .bangchu{
-	float: left;
-	margin: 0;
-}
+                .mauphieuchi > section > .noidung > .sotien > .bangso {
+                    float: left;
+                    margin: 0;
+                    width: 15em;
+                }
 
-.noidung > .kemtheo{}
+                .mauphieuchi > section > .noidung > .sotien > .bangchu {
+                    float: left;
+                    margin: 0;
+                }
 
-.noidung > .kemtheo > span{
-	font-weight: normal;
-}
+            .mauphieuchi > section > .noidung > .kemtheo {
+            }
 
-.kyten{}
+                .mauphieuchi > section > .noidung > .kemtheo > span {
+                    font-weight: normal;
+                }
 
-.kyten > .ngay{
-	width: 100%;
-	text-align: right;
-}
+        .mauphieuchi > section > .kyten {
+        }
 
-.kyten > .chucvu{
-	list-style: none;
-	width: 100%;
-	height: 5em;
-	margin: 0;
-	padding: 0;
-}
+            .mauphieuchi > section > .kyten > .ngay {
+                width: 100%;
+                text-align: right;
+            }
 
-.kyten > .chucvu > li{
-	float: left;
-	width: 20%;
-	text-align: center;	
-	font-weight: bold;
-}
+            .mauphieuchi > section > .kyten > .chucvu {
+                list-style: none;
+                width: 100%;
+                height: 5em;
+                margin: 0;
+                padding: 0;
+            }
 
-.kyten > .chucvu > li > span{
-	font-weight: normal;
-	font-style: italic;
-}
+                .mauphieuchi > section > .kyten > .chucvu > li {
+                    float: left;
+                    width: 20%;
+                    text-align: center;
+                    font-weight: bold;
+                }
 
-.kyten > .chucvu > li > p{
-	margin: 5em 0em 0em 0em;
-	font-weight: normal;
-}
+                    .mauphieuchi > section > .kyten > .chucvu > li > span {
+                        font-weight: normal;
+                        font-style: italic;
+                    }
+
+                    .mauphieuchi > section > .kyten > .chucvu > li > p {
+                        margin: 5em 0em 0em 0em;
+                        font-weight: normal;
+                    }

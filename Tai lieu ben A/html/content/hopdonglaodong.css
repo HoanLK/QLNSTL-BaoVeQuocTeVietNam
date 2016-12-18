@@ -1,162 +1,168 @@
 body {
-  	padding: 1em 5em 2em 5em;
+    padding: 1em 2em;
 }
 
-p{
-	margin: 0;
+p {
+    margin: 0;
 }
 
-header{
-		display: inline-flex;
-		color: rgba(0, 0, 0, 0.6);
+.hopdonglaodong {
 }
 
-header > img{
-			width: 15%;
-			height: 5%;
-			opacity: 0.6;
-}
+    .hopdonglaodong > header {
+        display: inline-flex;
+        color: rgba(0, 0, 0, 0.6);
+    }
 
-header > div{
-			text-align: center;
-			width: 85%;
-			padding: 2em 0em 0em 0em;
-}
+        .hopdonglaodong > header > img {
+            width: 15%;
+            height: 5%;
+            opacity: 0.6;
+        }
 
-header > div > .tenCongty-vn{
-			  display: block;
-				font-size: 1.1em;
-				font-weight: bold;
-				text-transform: uppercase;
-				margin: 0;
-      }
+        .hopdonglaodong > header > div {
+            text-align: center;
+            width: 85%;
+            padding: 1.5em 0em 0em 0em;
+        }
 
-header > div > .tenCongty-en{
-			  display: block;
-				font-size: 0.9em;
-				font-weight: bold;
-				text-transform: uppercase;
-				margin: 0;
-      }
+            .hopdonglaodong > header > div > .tenCongty-vn {
+                display: block;
+                font-size: 1.1em;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin: 0;
+            }
 
-header > div > .diaChi{
-			  display: block;
-				font-size: 0.85em;
-				margin: 0;
-				
-      }
+            .hopdonglaodong > header > div > .tenCongty-en {
+                display: block;
+                font-size: 0.9em;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin: 0;
+            }
 
-header > div > .thongTin{
-			  display: block;
-				margin: 0;
-}
+            .hopdonglaodong > header > div > .diaChi {
+                display: block;
+                font-size: 0.85em;
+                margin: 0;
+            }
 
-header > div > .thongTin > span{
-					display: inline-flex;
-					width: 35%;
-					text-align: left;
-					font-size: 0.8em;
-}
+            .hopdonglaodong > header > div > .thongTin {
+                display: block;
+                margin: 0;
+            }
 
-section {}
+                .hopdonglaodong > header > div > .thongTin > span {
+                    display: inline-flex;
+                    width: 35%;
+                    text-align: left;
+                    font-size: 0.8em;
+                }
 
-section > article{
-	padding: 4em 0em 0em 0em;
-}
+    .hopdonglaodong > section {
+        line-height: 2em;
+    }
 
-section > article > .chuDe{
-	text-align: center;
-}
+        .hopdonglaodong > section > article {
+            padding: 4em 0em 0em 0em;
+        }
 
-section > article > .chuDe > .tenChuDe{
-	font-size: 1.5em;
-	font-weight: bold;
-	text-transform: uppercase;
-}
+            .hopdonglaodong > section > article > .chuDe {
+                text-align: center;
+            }
 
-section > article > .chuDe > .trichDan{
-	font-size: 0.8em;
-	font-weight: bold;
-	font-style: italic;
-}
+                .hopdonglaodong > section > article > .chuDe > .tenChuDe {
+                    font-size: 1.5em;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
 
-section > article > .chuDe > .soHDLD{}
+                .hopdonglaodong > section > article > .chuDe > .trichDan {
+                    font-size: 0.8em;
+                    font-weight: bold;
+                    font-style: italic;
+                }
 
-section > article > .thongTin{
-	font-weight: bold;
-}
+                .hopdonglaodong > section > article > .chuDe > .soHDLD {
+                }
 
-section > article > .thongTin > .ben{
-	display: inline-flex;
-}
+            .hopdonglaodong > section > article > .thongTin {
+                font-weight: bold;
+            }
 
-section > article > .thongTin > .ben > .muc{
-	list-style: none;
-	padding: 0;
-	width: 10em;
-}
+                .hopdonglaodong > section > article > .thongTin > .ben {
+                    display: inline-flex;
+                    line-height: 2em;
+                }
 
-section > article > .thongTin > .ben > .muc > li{
-	width: 100%;
-}
+                    .hopdonglaodong > section > article > .thongTin > .ben > .muc {
+                        list-style: none;
+                        padding: 0;
+                        width: 10em;
+                    }
 
-section > article > .thongTin > .ben > .noiDung{
-	list-style: none;
-}
+                        .hopdonglaodong > section > article > .thongTin > .ben > .muc > li {
+                            width: 100%;
+                        }
 
-section > article > .thongTin > .ben > .noiDung > li{}
+                    .hopdonglaodong > section > article > .thongTin > .ben > .noiDung {
+                        list-style: none;
+                    }
 
-section > article > .thongTin > .ben > .noiDung > li > .hai{
-	width: 49%;
-	display: inline-flex;
-}
+                        .hopdonglaodong > section > article > .thongTin > .ben > .noiDung > li {
+                        }
 
-section > article > .thongTin > .ben > .noiDung > li > .ba{
+                            .hopdonglaodong > section > article > .thongTin > .ben > .noiDung > li > .hai {
+                                width: 49%;
+                                display: inline-flex;
+                            }
 
-	display: inline-flex;
-}
+                            .hopdonglaodong > section > article > .thongTin > .ben > .noiDung > li > .ba {
+                                display: inline-flex;
+                            }
 
-section > article > .thoaThuan{
-	text-align: center;
-	font-style: italic;
-}
+            .hopdonglaodong > section > article > .thoaThuan {
+                text-align: center;
+                font-style: italic;
+            }
 
-section > article > .dieuKhoan{
-	padding: 1em 0em;
-}
+            .hopdonglaodong > section > article > .dieuKhoan {
+                padding: 1em 0em;
+            }
 
-section > article > .dieuKhoan > .title{
-	font-weight: bold;
-}
+                .hopdonglaodong > section > article > .dieuKhoan > .title {
+                    font-weight: bold;
+                }
 
-section > article > .dieuKhoan > .title > span{
-	text-decoration: underline;
-}
+                    .hopdonglaodong > section > article > .dieuKhoan > .title > span {
+                        text-decoration: underline;
+                    }
 
-section > article > .dieuKhoan > .cacY{
-	text-align: justify;
-	line-height: 1.8em;
-}
+                .hopdonglaodong > section > article > .dieuKhoan > .cacY {
+                    text-align: justify;
+                    line-height: 1.8em;
+                }
 
-section > article > .dieuKhoan > .cacY > span{
-	font-weight: bold;
-}
+                    .hopdonglaodong > section > article > .dieuKhoan > .cacY > span {
+                        font-weight: bold;
+                    }
 
-footer{
-	display: inline-flex;
-	text-align: center;
-	width: 100%;
-}
+    .hopdonglaodong > footer {
+        display: inline-flex;
+        text-align: center;
+        width: 100%;
+    }
 
-footer > p{
-	width: 50%;
-	font-weight: bold;
-}
+        .hopdonglaodong > footer > p {
+            width: 50%;
+            font-weight: bold;
+        }
 
-footer > p > .ten{
-	text-transform: uppercase;
-}
+            .hopdonglaodong > footer > p > .ten {
+                text-transform: uppercase;
+            }
 
-footer > p > .phu{
-	font-style: italic;
-}
+            .hopdonglaodong > footer > p > .phu {
+                font-style: italic;
+            }
